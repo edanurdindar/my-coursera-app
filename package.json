@@ -1,0 +1,20 @@
+{
+  "name": "coursera-final-project",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "echo \"No test yet\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edanurdindar/my-coursera-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edanurdindar/my-coursera-app/issues"
+  },
+  "homepage": "https://github.com/edanurdindar/my-coursera-app#readme",
+  "description": ""
+}
