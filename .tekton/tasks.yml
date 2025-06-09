@@ -1,0 +1,23 @@
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: cleanup
+spec:
+  steps:
+    - name: remove-temp
+      image: alpine
+      script: |
+        rm -rf /workspace/source/tmp
+
+---
+apiVersion: tekton.dev/v1beta1
+kind: Task
+metadata:
+  name: nose-test
+spec:
+  steps:
+    - name: test
+      image: node:18-alpine
+      script: |
+        npm install
+        npm test
