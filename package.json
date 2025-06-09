@@ -17,5 +17,8 @@
     "url": "https://github.com/edanurdindar/my-coursera-app/issues"
   },
   "homepage": "https://github.com/edanurdindar/my-coursera-app#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "eslint": "^9.28.0"
+  }
 }
